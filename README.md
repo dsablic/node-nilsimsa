@@ -1,4 +1,4 @@
-# node-nilsimsa
+# node-nilsimsa &nbsp; [![Build Status](https://travis-ci.org/dsablic/node-nilsimsa.svg?branch=master)](https://travis-ci.org/dsablic/node-nilsimsa)
 A NodeJS implementation of the [Nilsimsa](https://en.wikipedia.org/wiki/Nilsimsa_Hash) hash,
 based on [jwilkins/nilsimsa](https://github.com/jwilkins/nilsimsa).
 
