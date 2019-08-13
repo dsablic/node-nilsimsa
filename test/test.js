@@ -47,6 +47,9 @@ describe('Sample Digests', function() {
 		// see here https://asecuritysite.com/encryption/nil
 		const expected_score = 91;
 
+		const all_1s = 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff';
+		const all_0s = '0000000000000000000000000000000000000000000000000000000000000000';
+
 		it('return a standard score', () => {
 			assert.equal(Nilsimsa.compare(expected_digest1, expected_digest2), expected_score);
 		});
@@ -54,6 +57,12 @@ describe('Sample Digests', function() {
 		it('should return 128 for identical input', () => {
 			assert.equal(Nilsimsa.compare(expected_digest1, expected_digest1), 128);
 			assert.equal(Nilsimsa.compare(expected_digest2, expected_digest2), 128);
+			assert.equal(Nilsimsa.compare(all_1s, all_1s), 128);
+			assert.equal(Nilsimsa.compare(all_0s, all_0s), 128);
+		});
+
+		it('should return -128 for digest with no common bits', () => {
+			assert.equal(Nilsimsa.compare(all_1s, all_0s), -128);
 		});
 
 		describe('validation', () => {
