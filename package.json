@@ -4,7 +4,7 @@
   "description": "A NodeJS implementation of the Nilsimsa hash",
   "main": "index.js",
   "scripts": {
-    "test": "echo TODO && exit 0"
+    "test": "mocha"
   },
   "bin": {
     "nilsimsa": "./bin/cli.js"
@@ -25,5 +25,9 @@
   "homepage": "https://github.com/dsablic/node-nilsimsa#readme",
   "engines": {
     "node": ">=6.10"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "faker": "^4.1.0"
   }
 }
