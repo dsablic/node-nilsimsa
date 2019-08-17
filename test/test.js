@@ -97,7 +97,7 @@ describe('Sample Digests', function() {
 		});
 
 		describe('similarity score against a threshold', () => {
-			const expected_similarity_threshold = 54;
+			const expected_similarity_threshold = 54; // proposed in http://spdp.di.unimi.it/papers/pdcs04.pdf
 
 			it('should return a low score for differing input', () => {
 				const input1 = faker.lorem.words(100);
