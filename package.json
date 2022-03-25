@@ -28,6 +28,6 @@
   },
   "devDependencies": {
     "faker": "^4.1.0",
-    "mocha": "^6.2.0"
+    "mocha": "^9.2.2"
   }
 }
