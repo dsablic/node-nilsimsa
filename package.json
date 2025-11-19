@@ -1,6 +1,6 @@
 {
   "name": "nilsimsa",
-  "version": "0.2.7",
+  "version": "1.0.0",
   "description": "A NodeJS implementation of the Nilsimsa hash",
   "main": "index.js",
   "type": "module",
