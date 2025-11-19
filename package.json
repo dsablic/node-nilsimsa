@@ -3,8 +3,10 @@
   "version": "0.2.7",
   "description": "A NodeJS implementation of the Nilsimsa hash",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "mocha"
+    "pretest": "eslint .",
+    "test": "node --experimental-test-coverage --test test/**/*.test.js"
   },
   "bin": {
     "nilsimsa": "./bin/cli.js"
@@ -24,10 +26,9 @@
   },
   "homepage": "https://github.com/dsablic/node-nilsimsa#readme",
   "engines": {
-    "node": ">=10.0"
+    "node": ">=20.0"
   },
   "devDependencies": {
-    "faker": "^4.1.0",
-    "mocha": "^11.1.0"
+    "eslint": "^9.39.1"
   }
 }

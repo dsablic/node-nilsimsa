@@ -1,3 +1,1 @@
-const { Nilsimsa } = require('./lib/nilsimsa')
-
-exports.Nilsimsa = Nilsimsa
+export { Nilsimsa } from './lib/nilsimsa.js'
