@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "pretest": "eslint .",
-    "test": "node --experimental-test-coverage --test test/**/*.test.js"
+    "test": "node --experimental-test-coverage --test"
   },
   "bin": {
     "nilsimsa": "./bin/cli.js"
