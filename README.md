@@ -1,4 +1,4 @@
-# node-nilsimsa &nbsp; [![CI](https://github.com/dsablic/node-nilsimsa/actions/workflows/ci.yml/badge.svg)](https://github.com/dsablic/node-nilsimsa/actions/workflows/ci.yml) [![npm version](https://badge.fury.io/js/nilsimsa.svg)](https://badge.fury.io/js/nilsimsa)
+# node-nilsimsa &nbsp; [![CI](https://github.com/dsablic/node-nilsimsa/actions/workflows/ci.yml/badge.svg)](https://github.com/dsablic/node-nilsimsa/actions/workflows/ci.yml) [![npm](https://img.shields.io/npm/v/nilsimsa)](https://www.npmjs.com/package/nilsimsa) [![node](https://img.shields.io/node/v/nilsimsa)](https://nodejs.org) [![license](https://img.shields.io/npm/l/nilsimsa)](./LICENSE)
 A Node.js implementation of the [Nilsimsa](https://en.wikipedia.org/wiki/Nilsimsa_Hash) locality-sensitive hash,
 based on [jwilkins/nilsimsa](https://github.com/jwilkins/nilsimsa).
 
