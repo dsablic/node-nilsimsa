@@ -76,8 +76,8 @@ describe('Sample Digests', function() {
 				let digest1, digest2
 
 				// identical, but shorter than 256 bits
-				digest1 = expected_digest1.substr(0, 60)
-				digest2 = expected_digest1.substr(0, 60)
+				digest1 = expected_digest1.slice(0, 60)
+				digest2 = expected_digest1.slice(0, 60)
 
 				assert.throws(() => {
 					Nilsimsa.compare(digest1, digest2)

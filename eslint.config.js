@@ -13,11 +13,9 @@ export default [
   },
   {
     languageOptions: {
-      ecmaVersion: 2022,
+      ecmaVersion: 2024,
       sourceType: 'module',
-      globals: {
-        ...globals.node
-      }
+      globals: globals.nodeBuiltin
     },
     rules: {
       // Standard style rules

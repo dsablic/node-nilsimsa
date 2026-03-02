@@ -1,8 +1,15 @@
 {
   "name": "nilsimsa",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A NodeJS implementation of the Nilsimsa hash",
   "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
   "type": "module",
   "scripts": {
     "pretest": "eslint .",
@@ -26,7 +33,7 @@
   },
   "homepage": "https://github.com/dsablic/node-nilsimsa#readme",
   "engines": {
-    "node": ">=20.0"
+    "node": ">=22.0"
   },
   "devDependencies": {
     "eslint": "^9.39.1"

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { createReadStream } from 'fs'
+import { createReadStream } from 'node:fs'
 import { Nilsimsa } from '../index.js'
 
 const path = process.argv[2]
