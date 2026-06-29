@@ -36,6 +36,8 @@
     "node": ">=22.0"
   },
   "devDependencies": {
-    "eslint": "^9.39.1"
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^14.0.0"
   }
 }
