@@ -18,6 +18,12 @@
   "bin": {
     "nilsimsa": "./bin/cli.js"
   },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib",
+    "bin"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dsablic/node-nilsimsa.git"
