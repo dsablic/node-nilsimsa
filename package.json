@@ -44,6 +44,6 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.8.0",
-    "globals": "^14.0.0"
+    "globals": "^17.11.0"
   }
 }
